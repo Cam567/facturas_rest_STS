@@ -5,7 +5,7 @@ pipeline {
 
         stage("Descargar código de la aplicación"){
             steps{
-                git "https://github.com/jesuscle/NOMBRE_REPOSITORIO"
+                git "https://github.com/jesuscle/facturas-spring-rest.git"
             } 
         } 
 
